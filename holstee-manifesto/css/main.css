@@ -1,0 +1,92 @@
+/****** BASE STYLES ******/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/***** GRID *****/
+.full-width {
+    background-color: grey;
+    width: 490px;
+    padding: 10px;
+    overflow: hidden
+}
+.half-width {
+    width: 225px;
+    height: auto;
+    padding: 10px;
+    margin: 0 0;
+}
+
+/***** BODY *****/
+.left1 {
+    background-color: tomato;
+    float: left;
+    height: 100px;
+    font-family: 'Chonburi', cursive;
+    font-size: 18px;
+    
+}
+.left2 {
+    background-color: tomato;
+    float: left;
+    clear: both;
+    height: 100px;
+    font-family: 'Pacifico', cursive;
+    font-size: 17px;
+}
+.left3 {
+    background-color: slateblue;
+    float: left;
+    clear: both;
+    height: 100px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+.left4 {
+    background-color: #99ffff;
+    float: left;
+    clear: both;
+    height: 100px;
+    font-family: 'Nova Flat', cursive;
+}
+.left5 {
+    background-color: #009999;
+    float: left;
+    clear: both;
+    height: 140px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+.right1 {
+    background-color: slateblue;
+    float: left;
+    height: 100px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.right2 {
+    background-color: #99ffff;
+    float: left;
+    height: 100px;
+    font-family: 'Chonburi', cursive;
+}
+.right3 {
+    background-color: #009999;
+    float: left;
+    height: 100px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+}
+.right4 {
+    background-color: tomato;
+    float: left;
+    height: 100px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+}
+.right5 {
+    background-color: tomato;
+    float: left;
+    height: 140px;
+    font-family: 'Lobster', cursive;
+}

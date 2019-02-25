@@ -1,0 +1,110 @@
+/***** BASE STYLES *****/
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+font-family: wisdoms;
+src: url('../fonts/wisdoms.otf') format('opentype');
+}
+body {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+h1,h2,h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.container {
+  width:1240px;
+  margin:0 auto;
+}
+/***** GRID *****/
+.third-width {
+    width: 400px;
+    height: 210px;
+}
+/***** HEADER *****/
+header {
+  height: 100px;
+  margin: 0 auto;
+}
+header h1{
+    padding: 0 0;
+    margin: 50px 20px;
+    font-weight: 30px;
+    float: left;
+}
+header span {
+    color: #77a466;
+}
+header nav {
+	float: right;
+	padding: 46px 0;
+}
+header nav ul {
+	margin: 10px 0;
+	padding: 0;
+}
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 0 10px;
+	display: inline;
+}
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
+}
+
+.top-section img {
+    width: 1200px;
+    margin: 0 0 0 20px;
+    padding: 0;
+    border-bottom: 3px solid #77a466;
+    border-top: 3px solid #77a466;
+}
+.top-section h2 {
+    font-size: 18px;
+    color: #77a466;
+    padding: 0;
+    margin: 30px 20px;
+}
+.top-section p {
+    font-size: 16px;
+    text-align: left;
+    padding: 0;
+    margin: 0 20px;
+    width: 1170px;
+}
+
+.third-width{
+    float: left;
+    border: 1px solid grey;
+    margin: 20px 0
+}
+.third-width h3 {
+    font-size: 12px;
+    padding: 0;
+    margin: 30px 20px;
+}
+.third-width p {
+    padding: 0;
+    margin: 0 20px;
+    line-height: 25px
+}
+.menu {
+    color: #77a466;
+}
+footer p {
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+footer span {
+    font-family: wisdoms;
+    text-transform: lowercase;
+    color: #77a466;
+}

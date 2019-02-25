@@ -1,0 +1,201 @@
+/****** BASE STYLES ******/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    background-color: #1f202b;
+}
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group {
+    *zoom: 1;
+}
+h1, h2 {
+    font-family: 'Source Code Pro', monospace;
+    color: #f70074;
+    text-transform: lowercase;
+    font-weight: 600;
+}
+h3, p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+/****** GRID *****/
+.full-width {
+    width: 1400px;
+    height: auto;
+    margin: 0 0;
+    padding: 0 0;
+}
+.half-width {
+    width: 700px;
+    height: auto;
+    float: left;
+    padding: 0 0;
+    margin: 0 0;
+}
+.third-width {
+    width: 466.66666px;
+    float: left;
+}
+
+/***** HEADER *****/
+header {
+	height: 75px;
+}
+
+header p {
+	float: left;
+	margin: 25px 40px;
+	padding: 0 0;
+    font-weight: 400;
+    font-size: 30px;
+}
+header nav {
+	padding: 25px 0 25px 950px;
+}
+nav ul {
+    position: fixed;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    text-transform: lowercase;
+    font-size: 30px;
+    padding:  10px;
+    color: white;
+    text-decoration: none;
+}
+    
+/****** MAIN ******/
+
+.top-section {
+    width: 1400px;
+    height: 710px;
+    text-align: left;
+    background: url(../img/hero-background.png);
+    margin: 25px 0;
+}
+.top-section h1 {
+    margin: 0 0;
+    padding: 300px 100px;
+    font-size: 72px;
+}
+span{
+    color: white;
+}
+/***** PORTFOLIO *****/
+
+#portfolio h2 {
+    font-size: 36px;
+    padding: 0 0;
+    margin: 55px 0 90px 0;
+    text-align: center
+}
+#portfolio img {
+    padding: 0 0;
+    margin: 0 0; 
+}
+.left1 {
+    padding: 0 0;
+    margin-left: 100px;
+    margin-right: 0;
+    width: 550px;
+}
+.right1 {
+    width: 550px;
+    height: auto;
+    padding: 0;
+    margin-left: 100px;
+        
+}
+.left2 {
+    clear: both;
+    padding: 0 0;
+    margin: 100px 0 50px 100px;
+    text-align: right;
+    width: 550px;
+}
+.right2 {
+    width: 550px;
+    margin: 100px;    
+}
+.left3 {
+    width: 550px;
+    margin: 0 0 100px 100px;
+}
+.right3 {
+    width: 550px;
+    text-align: left;
+    padding: 0;
+    margin: 0 100px 100px 100px;
+}
+
+/****** ABOUT ******/
+#about-me {
+    width: 1400px;
+    height: 550px;
+    background: url(../img/about-me.png)
+}
+#about-me h2 {
+    font-size: 36px;
+    padding: 50px 0 50px 0;
+    margin: 0;
+    text-align: center;
+}
+#about-me p {
+    width: 650px;
+    padding: 0;
+    margin: 0 100px 100px;
+    color: black;
+}
+
+/***** CONTACT ******/
+#contact h2 {
+    font-size: 36px;
+    text-align: center;
+    padding: 0;
+    margin: 50px;
+}
+#contact h3 {
+    text-align: center
+}
+#contact p {
+    text-align: center;
+    padding: 0;
+    margin: 10px
+}
+#contact ul{
+    padding: 0;
+    margin: 10px 30px
+}
+#contact ul li {
+    display: inline;
+    padding: 10px 20px;
+}
+#contact ul li a {
+    padding: 20px
+}
+
+/***** FOOTER *****/
+.footer {
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+}
